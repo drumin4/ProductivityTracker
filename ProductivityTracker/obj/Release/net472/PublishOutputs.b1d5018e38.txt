@@ -1,0 +1,13 @@
+D:\TimeEclipse\ProductivityTracker.exe
+D:\TimeEclipse\ProductivityTracker.exe.config
+D:\TimeEclipse\ProductivityTracker.pdb
+D:\TimeEclipse\Guna.UI2.dll
+D:\TimeEclipse\LiveCharts.dll
+D:\TimeEclipse\LiveCharts.WinForms.dll
+D:\TimeEclipse\LiveCharts.Wpf.dll
+D:\TimeEclipse\System.Configuration.ConfigurationManager.dll
+D:\TimeEclipse\System.Data.SqlClient.dll
+D:\TimeEclipse\System.Drawing.Common.dll
+D:\TimeEclipse\System.Security.AccessControl.dll
+D:\TimeEclipse\System.Security.Permissions.dll
+D:\TimeEclipse\System.Security.Principal.Windows.dll
