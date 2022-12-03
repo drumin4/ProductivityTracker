@@ -391,10 +391,25 @@ namespace ProductivityTracker
         
         private void buttonToAddActivity_Click(object sender, EventArgs e)
         {
-            Category_Form category = new Category_Form(FirstName, LastName, Username);
-            
-            category.Show();
-            this.Hide();
+            if (listActivities.Rows.Count > 1)
+            {
+                if (listActivities.SelectedRows[0].Cells[6].Value.ToString() != "Ongoing")
+                {
+                    Category_Form category = new Category_Form(FirstName, LastName, Username);
+                    category.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Please pause or stop all your started activities before changing tabs.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+            }
+            else
+            {
+                Category_Form category = new Category_Form(FirstName, LastName, Username);
+                category.Show();
+                this.Hide();
+            }
         }
 
         private void buttonToAddActivity_MouseEnter(object sender, EventArgs e)
@@ -419,9 +434,25 @@ namespace ProductivityTracker
 
         private void buttonToGuide_Click(object sender, EventArgs e)
         {
-            Guide_Form guide = new Guide_Form(FirstName, LastName, Username);
-            guide.Show();
-            this.Hide();
+            if (listActivities.Rows.Count > 1)
+            {
+                if (listActivities.SelectedRows[0].Cells[6].Value.ToString() != "Ongoing")
+                {
+                    Guide_Form guide = new Guide_Form(FirstName, LastName, Username);
+                    guide.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Please pause or stop all your started activities before changing tabs.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+            }
+            else
+            {
+                Guide_Form guide = new Guide_Form(FirstName, LastName, Username);
+                guide.Show();
+                this.Hide();
+            }
         }
 
         private void buttonToGuide_MouseEnter(object sender, EventArgs e)
@@ -446,9 +477,25 @@ namespace ProductivityTracker
 
         private void buttonToRecords_Click(object sender, EventArgs e)
         {
-            Record_Form record = new Record_Form(FirstName, LastName, Username);
-            record.Show();
-            this.Hide();
+            if (listActivities.Rows.Count > 1)
+            {
+                if (listActivities.SelectedRows[0].Cells[6].Value.ToString() != "Ongoing")
+                {
+                    Record_Form record = new Record_Form(FirstName, LastName, Username);
+                    record.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Please pause or stop all your started activities before changing tabs.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+            }
+            else
+            {
+                Record_Form record = new Record_Form(FirstName, LastName, Username);
+                record.Show();
+                this.Hide();
+            }
         }
 
         private void buttonToRecords_MouseEnter(object sender, EventArgs e)
