@@ -19,5 +19,3 @@ namespace ProductivityTracker
     }
 }
 
-// TODO - BUG FOUND: if clicked on another section while timer is ongoing, it goes boom
-// TODO - Dark Mode Implementation
