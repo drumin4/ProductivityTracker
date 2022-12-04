@@ -74,7 +74,7 @@ Time Eclipse is strictly a windows-only program and it is meant to be left runni
 
 #### What inspired you to build TimeEclipse?
 
-Upon trying to think of what kind of personal project I could build for my portofolio, I thought the best idea would be to create something practical, that has some sort of utility in real life. Eventually, the idea of productivity came to mind. So I have designed this program with the goal of making it as engaging and beginner-friendly as possible. What inspired me the most is the fact that I myself wanted to use this program for my own purposes. So I was constantly flooded with ideas of what features I would like to add to make my life easier. Overall, TimeEclipse as been a fun ride that further deepened my passion for programming and its endless possibilities.
+Upon trying to think of what kind of personal project I could build for my portfolio, I thought the best idea would be to create something practical, that has some sort of utility in real life. Eventually, the idea of productivity came to mind. So I have designed this program with the goal of making it as engaging and beginner-friendly as possible. What inspired me the most is the fact that I myself wanted to use this program for my own purposes. So I was constantly flooded with ideas of what features I would like to add to make my life easier. Overall, TimeEclipse as been a fun ride that further deepened my passion for programming and its endless possibilities.
 
 #### How was the process of building TimeEclipse like?
 
