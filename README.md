@@ -101,7 +101,7 @@ Some of the best realizations I have achieved are:
 4) Working with collections such as Dictionaries and Lists;
 5) How to use Windows Forms in a way that makes the UI more engaging;
 6) Applying CRUD and KISS principles;
-7) Testing my code and identify what wasn't working.
+7) Testing my code and identifying what wasn't working.
 
 
 
