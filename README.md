@@ -80,9 +80,9 @@ Upon trying to think of what kind of personal project I could build for my portf
 
 After building up my programming skills for quite an extended period of time, I finally decided to put my knowledge to the test. TimeEclipse was the challenge I needed, but the process wasn't as smooth as I had anticipated. 
 
-I started by drawing the UI design, trying to connect it to the concepts and functionalities needed in the program. After I ended my disastrous piece of art, I started coding and working on the interface based on the vague ideas I had in my head. 
+From drawing the UI design, to building up the concepts and functionalities that I had in my mind, I was constantly met with challenges and roadblocks. Overcoming them wasn't always easy, but the constant success was undoubtly building up my confidence and general knowledge as a software developer. 
 
-Little by little, I was starting to understanding what I wanted my program to be, and by moving forward, more ideas would often come up to join my journey.
+As I kept moving forward, what I wanted my program to be had become much clearer. From a certain point, things made more sense and new ideas started to come up.
 
 #### What would you add/change about your program if you were to do it all over again?
 
