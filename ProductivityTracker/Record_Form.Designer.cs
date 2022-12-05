@@ -444,6 +444,7 @@
             this.listRecords.GridColor = System.Drawing.Color.Gray;
             this.listRecords.Location = new System.Drawing.Point(413, 141);
             this.listRecords.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listRecords.MultiSelect = false;
             this.listRecords.Name = "listRecords";
             this.listRecords.ReadOnly = true;
             this.listRecords.RowHeadersVisible = false;

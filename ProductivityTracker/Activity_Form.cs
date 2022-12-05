@@ -391,7 +391,7 @@ namespace ProductivityTracker
         
         private void buttonToAddActivity_Click(object sender, EventArgs e)
         {
-            if (listActivities.Rows.Count > 1)
+            if (listActivities.Rows.Count > 1 && listActivities.SelectedRows.Count == 1)
             {
                 if (listActivities.SelectedRows[0].Cells[6].Value.ToString() != "Ongoing")
                 {
@@ -434,7 +434,7 @@ namespace ProductivityTracker
 
         private void buttonToGuide_Click(object sender, EventArgs e)
         {
-            if (listActivities.Rows.Count > 1)
+            if (listActivities.Rows.Count > 1 && listActivities.SelectedRows.Count == 1)
             {
                 if (listActivities.SelectedRows[0].Cells[6].Value.ToString() != "Ongoing")
                 {
@@ -477,7 +477,7 @@ namespace ProductivityTracker
 
         private void buttonToRecords_Click(object sender, EventArgs e)
         {
-            if (listActivities.Rows.Count > 1)
+            if (listActivities.Rows.Count > 1 && listActivities.SelectedRows.Count == 1)
             {
                 if (listActivities.SelectedRows[0].Cells[6].Value.ToString() != "Ongoing")
                 {
@@ -485,6 +485,7 @@ namespace ProductivityTracker
                     record.Show();
                     this.Hide();
                 }
+                
                 else
                 {
                     MessageBox.Show("Please pause or stop all your started activities before changing tabs.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -520,7 +521,7 @@ namespace ProductivityTracker
 
         private void buttonToSignOut_Click(object sender, EventArgs e)
         {
-            if(listActivities.Rows.Count > 1)
+            if(listActivities.Rows.Count > 1 && listActivities.SelectedRows.Count == 1)
             {
                 if (listActivities.SelectedRows[0].Cells[6].Value.ToString() != "Ongoing")
                 {
